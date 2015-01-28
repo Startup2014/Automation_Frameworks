@@ -16,6 +16,7 @@ class MaysRegistration(unittest.TestCase):
         self.accept_next_alert = True
     
     def test_mays_registration(self):
+        print "=======Inside registration page======"
         driver = self.driver
     
     def is_element_present(self, how, what):
