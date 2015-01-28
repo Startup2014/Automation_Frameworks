@@ -9,5 +9,3 @@ done < "$filename"
 
 #Basic commands
 
-
-/Users/swatidhoke/PycharmProjects
