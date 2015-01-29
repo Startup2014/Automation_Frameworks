@@ -1,3 +1,20 @@
-Create folder to save various folder ans test set
 
-Add selenium libraries
+Step 1: Plug in to locate elements are : fire bug and firepath in  firefox
+
+Step 2: Create folder to save various folder ans test set
+
+Step 3: Add selenium libraries and add the lib folder created
+
+Step 4: Download testNG libraries and add the lib folder created
+
+Step 5 : Add external jar to build bath (if using eclipse)
+
+Step 6 :install PIP andselenium :
+sudo easy_install pip
+sudo pip install -U selenium
+
+
+
+
+
+
