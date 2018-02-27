@@ -22,6 +22,7 @@ class MaysRegistration(unittest.TestCase):
         print "=======Inside registration page======"
         self.driver.get(self.base_url )
 
+        self.log.info("self.log.info test")
         #click elemantsign in
         SigninlinkID = "globalMastheadSignIn"
         CreateProfileID = "createProfileContainer"
