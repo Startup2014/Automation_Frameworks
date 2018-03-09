@@ -110,3 +110,5 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1012760282, l
 JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1012760282, line 68: unreachable code after return statement
 JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
 JavaScript warning: https://mathid.mathtag.com/d/i.js, line 1: unreachable code after return statement
+1520482700534	geckodriver	INFO	geckodriver 0.19.1
+1520482700620	geckodriver	INFO	Listening on 127.0.0.1:55401

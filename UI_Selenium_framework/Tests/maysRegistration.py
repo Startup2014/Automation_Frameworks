@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import TestRunner as TestRunner
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -7,9 +9,12 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 
 import unittest, time, re
-#from Automation_Frameworks.UI_Selenium_framework.Common_utils import model
 
 class MaysRegistration(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        pass
+
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
@@ -17,23 +22,26 @@ class MaysRegistration(unittest.TestCase):
         self.verificationErrors = []
         self.accept_next_alert = True
 
-
     def test_mays_registration(self):
-        print("=======Inside registration page======")
-        self.driver.get(self.base_url )
-        #click elemantsign in
-        SigninlinkID = "globalMastheadSignIn"
-        CreateProfileID = "createProfileContainer"
+        print("=======Inside test_mays_registration test======")
+        pass
 
-        self.driver.find_element_by_id(SigninlinkID).click()
-        self.driver.implicitly_wait(30)
-        self.driver.find_element_by_id(CreateProfileID).click()
-        driver = self.driver
+    @unittest.skip("demonstrating skipping")
+    def test_mays_login(self):
+        print("=======Inside test_mays_login test======")
 
+    @unittest.expectedFailure
+    def test_expected_failure_test(self):
+        self.fail("========demonstrating expectedFailure=====")
 
     def tearDown(self):
         self.driver.quit()
-        self.assertEqual([], self.verificationErrors)
+
+    @classmethod
+    def tearDownClass(cls):
+        print(unittest.TestResult)
+        os.system("python /Users/swatidhoke/PycharmProjects/Automation_Frameworks/UI_Selenium_framework/Tests/sendmail.py")
 
 if __name__ == "__main__":
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(MaysRegistration)
+    unittest.TextTestRunner(verbosity=2).run(suite)
