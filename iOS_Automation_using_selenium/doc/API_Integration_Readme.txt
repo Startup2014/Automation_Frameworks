@@ -4,10 +4,7 @@ Integrating API Utils with Appcenter_Automation
 
 2. update PYTHONPATH variable with these settings:
 
-PYTHONPATH="/Users/ramnik_kaur/Perforce//depot/Enterprise_Mobile_Engineering/Projects/BlueMoon/QA/Appcenter_Automation/:
-/Users/ramnik_kaur/Perforce/ramnik_AppCenterNew/depot/Enterprise_Mobile_Engineering/Source/Nukona/trunk/web-ui-test/api_tests:
-/Users/ramnik_kaur/Perforce/ramnik_AppCenterNew/depot/Enterprise_Mobile_Engineering/Source/Nukona/trunk/web-ui-test/:
-/Users/ramnik_kaur/Perforce/ramnik_AppCenterNew/depot/Enterprise_Mobile_Engineering/Source/Nukona/trunk/web-ui-test/api_tests/api_infra"
+PYTHONPATH="/path/ "
 export PYTHONPATH
 
 2. Then try to run the Proof of concept - tests 
