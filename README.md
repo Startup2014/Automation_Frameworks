@@ -38,3 +38,24 @@ optional:
  git pull origin swati_private_branch  -v
  git push origin swati_private_branch  -v
  Go to Githib and create a new pull request
+ 
+ 
+ 
+#####Selenium Setup#####
+0. Clone the repo (git clone git@github.com:Startup2014/Automation_Frameworks.git)
+1. Download and install Python (2.7.x)
+2. Install selenium and dependancies by:
+```
+pip install -r UI_Selenium_framework/test-requirements.txt
+```    
+3. (Optional) Download and install PyCharm
+4. Download and add to PATH marionette driver:
+```
+   Chrome:               https://sites.google.com/a/chromium.org/chromedriver/downloads
+   Firefox:              https://github.com/mozilla/geckodriver/releases/tag/v0.19.0
+   IE (Win Only):        http://www.seleniumhq.org/download/
+```
+5. Running script locally:
+   IDE - .feature or Scenario based
+   terminal / prompt - using lettuce runner
+
