@@ -237,8 +237,6 @@ class otherSmallProg():
 # L = List_programe();
 # L.generate_fibonocci()
 
-
-
 #generate_fibonocci()
 #sort_acs_list_of_list(list1)
 #print "output is:" + str(isPrime(list1))
@@ -258,9 +256,8 @@ class otherSmallProg():
 					minm  = diff
 		print minm
 
-S = otherSmallProg();
-S.find_min_dis()
-
+# S = otherSmallProg();
+# S.find_min_dis()
 
 if __name__ == '__main__':
     ''' Add test cases in suite to keep the order of running'''
