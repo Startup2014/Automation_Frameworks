@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import TestRunner as TestRunner
+#import TestRunner as TestRunner
 import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
