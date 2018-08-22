@@ -13,6 +13,7 @@ API automation
 
 iOS Device automation--Pycharm , sikuli , see test , appium ,veency
 
+#Setup steps to Pycharm and virtual environment
 STEP 1:  cd ~
 Step 2 : hg clone git@github.com:Startup2014/Automation_Frameworks.git
 Step 3: hg checkout fork_by_<user>
