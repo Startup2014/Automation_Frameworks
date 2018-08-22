@@ -262,12 +262,6 @@ S = otherSmallProg();
 S.find_min_dis()
 
 
-
-
-
-
-
-
 if __name__ == '__main__':
     ''' Add test cases in suite to keep the order of running'''
     from xmlrunner import XMLTestRunner
