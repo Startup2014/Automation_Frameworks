@@ -27,3 +27,13 @@ optional:
       1. open project
       2. Menu >> PyCharm >> Preferences >> Project:QA_automation >> Project Interpreter, Project Interpreter = env
 
+
+#Github Commands:
+ git status
+ git add .
+ git commit -m "COMMIT MSG"
+ git show commit (ex: e3a014da373f689443bf044090)
+ git log
+ git pull origin swati_private_branch  -v
+ git push origin swati_private_branch  -v
+ Go to Githib and create a new pull request
