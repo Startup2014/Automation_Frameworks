@@ -5,6 +5,7 @@ import unittest
 import smtplib
 import random
 import copy
+
 class List_programe():
 
 	test_string ="Swatii" ### Global Varibale
@@ -136,8 +137,6 @@ class otherSmallProg():
 		# mylist = [1,2, 3, 4, 23 , 33, 44, 55]
 		mylist = [x*x for x in range(2, 100, 1)]
 		print mylist
-
-
 		for i in range(len(mylist)-1, -1, -1):
 
 			print i
