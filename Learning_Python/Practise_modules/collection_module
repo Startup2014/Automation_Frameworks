@@ -1,0 +1,53 @@
+# Example how to use COLLECTIONS function 
+from collections import defaultdict
+from collections import Counter
+from collections import OrderedDict
+import time
+import datetime
+import os
+import urllib.request
+import re
+import requests,sessions
+import sys, Requests, sessions
+import BeautifulSoup
+import pprint
+
+test_array =[[1],[2],[3], [5]]
+
+mydict ={} # define normal dict
+OrderedDicttest = OrderedDict()# define OrderedDict dict
+ 
+
+# Example how to use FILTER function  (Retrun all even number)
+#print(list(filter(lambda x: x%2==0, test_array[0])))
+
+# Example how to use ENUMERATE function 
+    
+for i, j in enumerate(test_array):
+    print(i, j)
+
+# Example how to use ZIP function It mergers two array and returns a pair
+for i, j, k in zip(test_array[1], test_array[2], test_array[3] ):
+    print(i, j, k)
+    
+# #print key if max value is given
+# for k, v in self.outgoingCall.items():
+#     if max(self.outgoingCall.values())==v:
+#         print(max(self.outgoingCall.values()))
+
+# Example how to use ITERTOOLS function 
+test_dict = {'first': 'swati', 'Last':'Dhoke'}
+for tkey, tval in test_dict.items():
+    print(tkey, tval)
+
+print(test_dict.keys())
+print(test_dict.values())
+
+#### Module to open a web url 
+#import urllib.request
+urllib.request.urlopen('https://www.youtube.com/user/guru99com')
+
+xx = "guru99,education is fun"
+r1 = re.findall(r"^\w+", xx)
+print((re.split(r'\s','we are splitting the words')))
+print((re.split(r's','split the words')))
