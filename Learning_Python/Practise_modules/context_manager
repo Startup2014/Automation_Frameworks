@@ -1,0 +1,12 @@
+ Example of context manager
+# with something_that_returns_a_context_manager() as my_resource:
+#     do_something(my_resource)
+#     ...
+#     print('done using my_resource')
+
+
+# Read from the file file.txt and output all valid phone numbers to stdout.
+
+with open (tfile.txt) as fl:
+        for line in fl :
+                print(line)
